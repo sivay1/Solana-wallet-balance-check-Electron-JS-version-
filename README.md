@@ -1,4 +1,4 @@
-#  Solana Wallet Balance Checker (Electron.js)
+#  Solana Wallet Balance Checker (Electron.js version)
 
 A lightweight Electron.js desktop application that allows users to enter any **Solana wallet address** and instantly fetch the **SOL balance** using a backend RPC script.
 
