@@ -14,14 +14,6 @@ A lightweight Electron.js desktop application that allows users to enter any **S
 
 ---
 
-## 🗂 Project Structure
-
-│── main.js # Electron main process
-│── preload.js # Secure API bridge
-│── renderer.js # UI interaction logic
-│── index.html # User interface
-│── logic.js # Solana RPC balance fetch
-
 To use -> Clone the repo run npm install ,npm start , npm build to get the .exe file(Output will be generated in /dist folder)
 
 Note: Add rpc url(https://api.mainnet-beta.solana.com) or your preferred RPC provider  inside the file or inside the .env file.
