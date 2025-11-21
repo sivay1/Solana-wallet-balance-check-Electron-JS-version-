@@ -1,0 +1,44 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win",
+    "build:linux": "electron-builder --linux",
+    "build:all": "electron-builder -mwl"
+  },
+  "keywords": [],
+  "author": "",
+  "build": {
+  "appId": "com.wallance.wallance",
+  "productName": "SolanaBalanceChecker",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "**/*"
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "build/sol-icon.ico"
+  },
+  "linux": {
+    "target": "AppImage",
+    "icon": "build/sol-icon.png"
+  }
+},
+
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "electron": "^39.2.1",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3"
+  }
+}
